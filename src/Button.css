@@ -1,0 +1,34 @@
+.btn{
+    border-radius: 4px;
+    background: #0467fb;
+    white-space: nowrap;
+    padding: 10px 20px ;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: all 0.3s ease-out;
+    background: rgb(201, 211, 233);
+}
+
+.primary{
+    background: #1b248a;
+}
+
+.big{
+    padding: 12px 64px;
+}
+
+.font-big{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 960px){
+    .btn{
+        width: 100%;
+    } 
+}
